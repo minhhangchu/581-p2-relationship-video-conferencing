@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Demo of The Relationship Project" />
+    <title>Rhys! Ready to Ride?</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+
+    </style>
+  </head>
+  <body>
+  <div id="compass">
+    <span class="center-back"></span>
+    <div class="north"><span>N</span></div>
+    <div class="east"><span>E</span></div>
+    <div class="south"><span>S</span></div>
+    <div class="west"><span>W</span></div>
+    <span class="center-top"></span>
+    <span id="spinner">
+    <span class="north-seeker"></span>
+    <span class="south-seeker"></span>
+    </span>
+  </div>
+
+  <div class="ocean">
+    <div class="ship">
+      <div class="deck">
+        <a href="javascript:" id="left"></a>
+        <a href="javascript:" id="right"></a>
+
+        <div class="steering-column" id="wheel"></div>
+        <div class="steering-wheel">
+          <div class="axle">
+            <span class="spindle-1"></span>
+            <span class="spindle-2"></span>
+            <span class="spindle-3"></span>
+            <span class="spindle-4"></span>
+            <span class="spindle-5"></span>
+            <span class="spindle-6"></span>
+          </div>
+          <div class="center-ring"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="light-btn">
+    <button id="redLight-btn" ></button>
+    <button id="yellowLight-btn" ></button>
+    <button id="greenLight-btn" ></button>
+  </div>
+
+  <div class="video">
+    <video id="localVideo" autoplay muted style="width:30%;height: 40%"></video>
+    <video id="remoteVideo" autoplay style="width:30%;height: 40%"></video>
+  </div>
+
+  <div class="button-call">
+    <p><button id="btn-client1" class="btn"><span>OPA&OMA</span></button></p>
+    <p><button id="btn-client2" class="btn"><span>RHYS</span></button></p>
+    <p><button id="btn-call" class="btn"><span>CALL</span></button></p>
+  </div>
+
+  </body>
+  <footer></footer>
+
+  <!-- Scripts-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="script.js"> </script>
+</html>
